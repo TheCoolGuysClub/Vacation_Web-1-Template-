@@ -1,0 +1,54 @@
+html {
+
+}
+
+p {
+  font-size: 20px;
+}
+
+header {
+  width: 100vw;
+  height: 10vh;
+
+  display: flex;
+  justify-content: space-around;
+  align-items: center;
+  align-content: center
+}
+.tab {
+  font-size: 35px;
+  color: gold;
+
+  border: solid grey;
+  border-radius: 9px;
+  padding: 5px;
+}
+
+#image_section {
+  width: 88vw;
+  height: 450px;
+
+  border: solid gold;
+  border-radius: 20px;
+
+  overflow: hidden;
+}
+#eat {
+  position: absolute;
+  left: 20vw;
+}
+#explore {
+  position: absolute;
+  left: 48vw;
+}
+#relax {
+  position: absolute;
+  right: 20vw;
+}
+img {
+  width: 400px;
+  height: 300px;
+
+  margin-left: 2px;
+  margin-right: 2px;
+}

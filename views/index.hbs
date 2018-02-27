@@ -1,0 +1,43 @@
+<!DOCTYPE html>
+<html>
+  <head>
+    <meta charset="utf-8">
+    <title>{{pageTitle}}</title>
+    <link rel="stylesheet" href="/css/styles.css">
+  </head>
+  <body>
+    <center>
+
+    <h1>{{pageTitle}}</h1>
+
+    <header>
+      <p id="hawaii_tab" class="tab">Hawaii</p>
+      <p id="athen_tab" class="tab">Athen</p>
+      <p id="rome_tab" class="tab">Rome</p>
+    </header>
+
+    <p id="vacation_destination">Hawaii</p>
+    <p>Current Temperature: {{hawaii_temp}}{{athen_temp}}{{rome_temp}}</p>
+
+
+
+    <div id="image_section">
+      <p id="eat">Eat</p>
+      <p id="explore">Explore</p>
+      <p id="relax">Relax</p>
+      <br><br><br><br>
+
+      {{> image_section}}
+      <center>
+    </div>
+
+    <br><br><br><br><br>
+
+    {{> footer}}
+
+    <script type="text/javascript" src="/js/script.js"></script>
+
+    <center>
+
+  </body>
+</html>
